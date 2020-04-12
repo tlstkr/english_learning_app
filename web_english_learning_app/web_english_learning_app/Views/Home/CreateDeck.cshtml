@@ -1,0 +1,16 @@
+﻿@model DeckViewModel
+
+
+<h1>Додати новий урокк</h1>
+
+<h3>Тут ви можете створити набір слів за темою</h3>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-controller="Home" asp-action="CreateDeck" method="post">
+    <div class="form-group">
+        <label asp-for="Name">Назва уроку</label>
+        <input asp-for="Name" class="form-control" aria-describedby="Назва теми" placeholder="Будь-ласка, оберіть назву для наступного уроку">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Додати</button>
+</form>

@@ -1,0 +1,97 @@
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using english_learning_app.Services;
+using english_learning_app.Services.Models;
+using english_learning_app.ViewModels;
+
+namespace english_learning_app.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly ILogger<HomeController> _logger;
+
+        private readonly FlashcardClient _flashcardClient;
+
+        public HomeController(ILogger<HomeController> logger, FlashcardClient flashcardClient)
+        {
+            _logger = logger;
+            _flashcardClient = flashcardClient;
+        }
+
+        [HttpGet]
+        public async Task<ViewResult> Index()
+        {
+            DeckResponse deckResponse = await _flashcardClient.GetDecks();
+
+            List<DeckViewModel> decksToDisplay = new List<DeckViewModel>();
+
+            if(deckResponse != null)
+            {
+                foreach(var deck in deckResponse.Decks)
+                {
+                    decksToDisplay.Add(new DeckViewModel()
+                    {
+                        Id = deck.Id,
+                        Name = deck.Name,
+                        TotalCards = deck.totalCards
+                    });
+                }
+            }
+
+
+            return View(decksToDisplay);
+        }
+
+        public ViewResult CreateDeck()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateDeck(DeckViewModel deckViewModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(deckViewModel);
+            }
+
+            var result = await _flashcardClient.CreateDeck(deckViewModel.Name);
+
+            if(!result.isSuccess)
+            {
+                foreach(var err in result.Errors.ErrorItems.Name)
+                {
+                    ModelState.AddModelError( err , err);
+                }
+                ModelState.AddModelError( "errorCreation" , "Problem creating a deck");
+                return View(deckViewModel);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> DeleteDeck(int deckId)
+        {
+            var deck = await _flashcardClient.GetDeckById(deckId);
+
+            if (deck != null)
+            {
+                var result = await _flashcardClient.DeleteDeckById(deckId);
+
+                if (!result.IsSuccess)
+                {
+                    return NotFound();
+                }
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View("NotFound");
+            }
+        }
+
+    }
+}

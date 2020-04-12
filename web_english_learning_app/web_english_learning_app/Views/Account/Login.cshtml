@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Http;
+@using System.Security.Claims;
+@inject IHttpContextAccessor httpContextAccessor
+
+@{
+    string returnUrl = httpContextAccessor.HttpContext.Request.Query["ReturnUrl"];
+}
+
+@model LoginViewModel
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-8 text-center">
+            <h2>Увійти у свій навчальний аккаунт</h2>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-6 login-container">
+            <form asp-action="Login" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="row justify-content-center">
+                    <label asp-for="Email"  class="col-3 col-lg-3 col-sm-5 col-md-4 text-right">Ім'я користувача або email</label>
+                    <input asp-for="Email" class="col-7 col-lg-5 col-sm-5 col-md-4 text-right" />
+                </div>
+                <div class="row justify-content-center">
+                    <label asp-for="Password" class="col-3 col-lg-3 col-sm-5 col-md-4 text-right">Пароль</label>
+                    <input asp-for="Password" class="col-7 col-lg-5 col-sm-5 col-md-4 text-right" /> 
+                </div>
+                <div class="row justify-content-center">
+                    <button type="submit" class="login-button m-2 p-2">Увійти</button>
+                </div>
+                @Html.Hidden("ReturnUrl", returnUrl)
+            </form>
+            <div class="row justify-content-center">
+                <a asp-action="Register">Зареєструвати новий аккаунт</a>
+            </div>
+        </div>
+    </div>
+</div>
