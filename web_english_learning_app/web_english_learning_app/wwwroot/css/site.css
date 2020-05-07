@@ -81,8 +81,8 @@ nav {
 .login-container {
     border-radius: 25px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #EED9DA;
-    box-shadow: 10px 5px 5px #EED9DA;
+    border-bottom: 1px solid lightgrey;
+    box-shadow: 10px 5px 5px lightgrey;
     padding: 10px;
     background-color: #EED9DA;
     border: 1px solid #EED9DA;
