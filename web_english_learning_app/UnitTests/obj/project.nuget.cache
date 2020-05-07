@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M2+vhgD428BAvT0qR8igIViHS0m9wIsN7L/VrFb9ZkEn7UBNlbYLx+vGmNTIlQlfSLrGSgyBVGeCl+fcI8ZCdg==",
+  "dgSpecHash": "bzs+xjcD63+3JPiMjJHOdlxPxDns7tH2fjeJ3xPXqyJjr+GeN/6XhaLr7ngz9oBXqT4rXw5zBkeNOfJa3f9Zag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Nata\\web_english_learning_app\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nata\\.nuget\\packages\\coverlet.collector\\1.0.1\\coverlet.collector.1.0.1.nupkg.sha512",
     "C:\\Users\\Nata\\.nuget\\packages\\fluentassertions\\5.10.2\\fluentassertions.5.10.2.nupkg.sha512",

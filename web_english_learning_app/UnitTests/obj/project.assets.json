@@ -8737,11 +8737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Nata\\web_english_learning_app\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\UnitTests\\UnitTests.csproj",
+      "projectPath": "C:\\Users\\Nata\\web_english_learning_app\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\Nata\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\Nata\\web_english_learning_app\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8760,8 +8760,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj": {
-              "projectPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj"
+            "C:\\Users\\Nata\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj": {
+              "projectPath": "C:\\Users\\Nata\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj"
             }
           }
         }

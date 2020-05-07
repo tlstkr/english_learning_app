@@ -1,76 +1,90 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
+﻿
 body {
-    background-color: #F3F3F3;
+    background-color: #EED9DA;
 }
 
 nav {
-    background-color: #A64AC9 !important;
+    background-color: #822D41 !important;
 }
 
+
+
 .navbar-brand, .nav-link {
-    color: #FCCD04 !important;
+    color: #EED9DA !important;
 }
 .deck-detail-header, .card-detail-header {
+    border-radius: 25px;
     padding-bottom: 10px;
     border-bottom: 1px solid grey;
     box-shadow: 10px 5px 5px grey;
     padding: 10px;
-    background-color: white;
+    background-color: #EED9DA;
     border: 1px solid lightgrey;
-    border-left: 10px solid #FCCD04;
+    border-left: 10px solid #822D41;
 }
 
 .deck-detail-header-deckname {
+    border-radius: 25px;
     font-size: 30px;
 }
 
-.add-new-card-link{
-    padding-left:0;
+.add-new-card-link {
+    color: #EED9DA;
+    padding-left: 0;
+    background-color: #822D41;
 }
 
-.start-quiz-container{
-    text-align:end;
+.start-quiz-container {
+    color: #EED9DA;
+    text-align: end;
+   
 }
 
 .start-quiz-button {
-    background-color: #FCCD04;
-    color: #A64AC9;
+    color: #EED9DA;
     border: none;
+    background-color: #822D41;
 }
 
-.delete-card-button{
-    padding-left:0;
+.delete-card-button {
+    color: #822D41;
+    padding-left: 0;
 }
 
-.card{
-    border:none;
-    border-bottom:1px solid lightgrey;
+.card {
+    border-radius: 25px;
+    border: none;
+    background-color: #EED9DA;
+    border-bottom: 1px solid lightgrey;
 }
 
-.add-new-card-container
-{
-    border-bottom:1px solid lightgrey;
+.add-new-card-container {
+    border-radius: 25px;
+    border-bottom: 1px solid lightgrey;
+    color: #822D41;
 }
 
 .deck-container {
+    border-radius: 25px;
     border: 1px solid lightgrey;
-    border-left: 10px solid #FCCD04;
+    border-left: 10px solid #822D41;
+    background-color: #EED9DA;
 }
 
 .login-button {
-    background-color: #A64AC9 !important;
-    color: #FCCD04;
-    width:100%;
+    border-radius: 25px;
+    background-color: #822D41 !important;
+    color: #EED9DA;
+    width: 100%;
 }
 
 .login-container {
+    border-radius: 25px;
     padding-bottom: 10px;
-    border-bottom: 1px solid grey;
-    box-shadow: 10px 5px 5px grey;
+    border-bottom: 1px solid #EED9DA;
+    box-shadow: 10px 5px 5px #EED9DA;
     padding: 10px;
-    background-color: white;
-    border: 1px solid lightgrey;
-    border-top: 10px solid #FCCD04;
+    background-color: #EED9DA;
+    border: 1px solid #EED9DA;
+    border-top: 10px solid #822D41;
 }

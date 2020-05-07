@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z4KFZ+AWPpAhFow+wzzjucGETq2KITCoENilDJwe2kSKYfZ/R82jzzGb1Hjms9OFtg8FAV3NaTdc4COMK9tRFQ==",
+  "dgSpecHash": "yb38dJD6wWlOqxq+HGU1zViNsSl50oxT64RvCG4JEjEJJC32E8Ohy9ggcVgLY+3qjg+lUzoLZuX+pRGt4DYwig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj",
+  "projectFilePath": "C:\\Users\\Nata\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nata\\.nuget\\packages\\flurl\\2.8.2\\flurl.2.8.2.nupkg.sha512",
     "C:\\Users\\Nata\\.nuget\\packages\\flurl.http\\2.4.2\\flurl.http.2.4.2.nupkg.sha512",

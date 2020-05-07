@@ -20,7 +20,7 @@ else
         <div class="col-12">
             <div class="deck-detail-header">
                 <h1 class="deck-detail-header-deckname">@Model.Name</h1>
-                <div>@($"кількість слів у цьому уроці: {Model.TotalCards}")</div>
+                <div>@($"Кількість слів у цьому уроці: {Model.TotalCards}")</div>
                 <div class="start-quiz-container">
                     <a href='@Url.Action("Index","Quiz",new { id = Model.Id })' class="btn btn-primary start-quiz-button">Розпочати Тестування</a>
                 </div>
@@ -32,7 +32,7 @@ else
             <div class="card-detail-header">
                 <h2>Cards</h2>
                 <div class="add-new-card-container">
-                    <a href='@Url.Action("AddNewCard","DeckDetail", new { id = Model.Id })' class="btn btn-link pl-0">додати ще одне слово</a>
+                    <a href='@Url.Action("AddNewCard","DeckDetail", new { id = Model.Id })' class="btn btn-link pl-0">Додати ще одне слово</a>
                 </div>
                 @foreach (Card card in Model.Cards)
                 {

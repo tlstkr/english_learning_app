@@ -5894,11 +5894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj",
+      "projectUniqueName": "C:\\Users\\Nata\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj",
       "projectName": "english_learning_app",
-      "projectPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj",
+      "projectPath": "C:\\Users\\Nata\\web_english_learning_app\\web_english_learning_app\\english_learning_app.csproj",
       "packagesPath": "C:\\Users\\Nata\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\web_english_learning_app\\web_english_learning_app\\obj\\",
+      "outputPath": "C:\\Users\\Nata\\web_english_learning_app\\web_english_learning_app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
