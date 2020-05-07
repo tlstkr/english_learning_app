@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\IntegrationTests\\IntegrationTests.csproj": {}
+    "C:\\Users\\Nata\\api_english_learning_app\\IntegrationTests\\IntegrationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\api-flashcards-dotnet\\api_english_learning_app.csproj": {
+    "C:\\Users\\Nata\\api_english_learning_app\\api-flashcards-dotnet\\api_english_learning_app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\api-flashcards-dotnet\\api_english_learning_app.csproj",
+        "projectUniqueName": "C:\\Users\\Nata\\api_english_learning_app\\api-flashcards-dotnet\\api_english_learning_app.csproj",
         "projectName": "api_english_learning_app",
-        "projectPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\api-flashcards-dotnet\\api_english_learning_app.csproj",
+        "projectPath": "C:\\Users\\Nata\\api_english_learning_app\\api-flashcards-dotnet\\api_english_learning_app.csproj",
         "packagesPath": "C:\\Users\\Nata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\api-flashcards-dotnet\\obj\\",
+        "outputPath": "C:\\Users\\Nata\\api_english_learning_app\\api-flashcards-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -112,14 +112,14 @@
         }
       }
     },
-    "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\IntegrationTests\\IntegrationTests.csproj": {
+    "C:\\Users\\Nata\\api_english_learning_app\\IntegrationTests\\IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\IntegrationTests\\IntegrationTests.csproj",
+        "projectUniqueName": "C:\\Users\\Nata\\api_english_learning_app\\IntegrationTests\\IntegrationTests.csproj",
         "projectName": "IntegrationTests",
-        "projectPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\IntegrationTests\\IntegrationTests.csproj",
+        "projectPath": "C:\\Users\\Nata\\api_english_learning_app\\IntegrationTests\\IntegrationTests.csproj",
         "packagesPath": "C:\\Users\\Nata\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\IntegrationTests\\obj\\",
+        "outputPath": "C:\\Users\\Nata\\api_english_learning_app\\IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -138,8 +138,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\api-flashcards-dotnet\\api_english_learning_app.csproj": {
-                "projectPath": "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\api-flashcards-dotnet\\api_english_learning_app.csproj"
+              "C:\\Users\\Nata\\api_english_learning_app\\api-flashcards-dotnet\\api_english_learning_app.csproj": {
+                "projectPath": "C:\\Users\\Nata\\api_english_learning_app\\api-flashcards-dotnet\\api_english_learning_app.csproj"
               }
             }
           }

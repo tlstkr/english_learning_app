@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XfosyQb26DOuzi6/I27eaI5gWibZU2+zS93DWZW6kOUkO8sAxOr2ktgtmNiyLXVjyksiZVhlCS6ApjNNzEdFIA==",
+  "dgSpecHash": "Dij9TtjlEhhxhRWoYxqI/JsxuCjQgMH1PSdpbhAT4kLW/b/GZqCcubkhlBu9ydegAgKyhgypKjtc3s8tTMZDZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Nata\\api_english_learning_app\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nata\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Nata\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

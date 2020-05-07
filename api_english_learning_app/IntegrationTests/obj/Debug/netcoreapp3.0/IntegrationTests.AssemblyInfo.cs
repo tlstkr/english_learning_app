@@ -12,8 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("api_english_learning_app, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Nata\\source\\repos\\flashcards\\api-flashcards-dotnet\\api-flashcards-dotnet" +
-    "", "api_english_learning_app.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("api_english_learning_app, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Nata\\api_english_learning_app\\api-flashcards-dotnet", "api_english_learning_app.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
